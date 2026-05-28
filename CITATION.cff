@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "Metric Reliability in Abstractive Summarization: A Joint Analysis of Human Alignment and Stochastic Stability"
+abstract: >
+  Code for systematic evaluation of eight summarization metrics (BLEU, ROUGE, METEOR,
+  chrF++, BERTScore, MoverScore, COMET, BLEURT) across two reliability dimensions:
+  human alignment (SummEval, n=1600) and sampling stability (CNN/DailyMail,
+  500 docs × 10 seeds × 3 samples = 15,000 summaries).
+authors:
+  - family-names: Kanchan
+    given-names: Varun D
+    email: kanchanvarun45@gmail.com
+    affiliation: "Manipal Institute of Technology, School of Computer Engineering"
+  - family-names: Shetty
+    given-names: Abhishek
+    email: aabhishekshetty7@gmail.com
+    affiliation: "Manipal Institute of Technology, School of Computer Engineering"
+keywords:
+  - abstractive summarization
+  - automatic evaluation metrics
+  - BERTScore
+  - human alignment
+  - meta-evaluation
+  - metric reliability
+  - sampling stability
+  - stochastic decoding
+  - NLP
+  - natural language processing
+license: MIT
+version: "1.0.0"
+date-released: "2025-01-01"
+repository-code: "https://github.com/YOUR_USERNAME/metric-reliability-summarization"
+url: "https://github.com/YOUR_USERNAME/metric-reliability-summarization"
+preferred-citation:
+  type: conference-paper
+  title: "Metric Reliability in Abstractive Summarization: A Joint Analysis of Human Alignment and Stochastic Stability"
+  authors:
+    - family-names: Kanchan
+      given-names: Varun D
+    - family-names: Shetty
+      given-names: Abhishek
+  year: 2025
+  journal: "IEEE"

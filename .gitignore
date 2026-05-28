@@ -1,0 +1,102 @@
+# ============================================================
+# .gitignore
+# ============================================================
+
+# ── Generated outputs (large CSVs, model caches) ────────────
+outputs/
+bleu_final_outputs/
+rouge_final_outputs/
+bertscore_outputs/
+chrfpp_outputs/
+meteor_outputs/
+meteor_final_outputs/
+moverscore_outputs*/
+moverscore_results/
+moverscore_real/
+comet_outputs/
+bleurt_outputs/
+final_results/
+
+# ── Model & tokenizer caches ─────────────────────────────────
+.cache/
+transformers_cache/
+hf_cache/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+.conda/
+
+# ── Environment files ────────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Jupyter / Colab ──────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Large data files ─────────────────────────────────────────
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+lightning_logs/
+wandb/
+mlruns/
+
+# ── Test coverage ─────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
